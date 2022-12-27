@@ -1,13 +1,15 @@
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
 
-function App({ data }) {
+function App() {
   return (
     <div>
       <Navbar />
-      <h4 className='nombre'>{data}</h4>
+      <ItemListContainer greeting="Bienvenid@s, soy una prop"/>
+     
     </div>
-
+   
   );
 }
 

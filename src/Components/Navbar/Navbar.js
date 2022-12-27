@@ -27,7 +27,7 @@ const Navbar = () => {
           </Typography>
           <Button color="inherit">Inicio</Button>
           <Button color="inherit">Productos</Button>
-          <Button color="inherit">Viajes</Button>
+          <Button color="inherit">Nosotros</Button>
           <CardWidget />
         </Toolbar>
       </AppBar>

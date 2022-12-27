@@ -1,12 +1,12 @@
 import React from 'react'
-import App from '../../App'
 
-const ItemListContainer = () => {
-    const data="Hola soy una props";
+
+const ItemListContainer = (props) => {
+    const {greeting} = props
   return (
-    <div>
-        <App data={data} />
-    </div>
+    <>
+        <h2>{greeting}</h2>
+    </>
   )
 }
 
